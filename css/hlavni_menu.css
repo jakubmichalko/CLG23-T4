@@ -5,7 +5,7 @@ h1, h2 {
 body {
     font-family: 'IBM Plex Serif', serif;
     font-size: large;
-
+    margin: 0;
 }
 
 .container {
@@ -62,6 +62,7 @@ button {
     "name menu"  
     "leftSide rightSide"
     "patka patka" ;
+    margin: 0;
     
 }
 
