@@ -1,6 +1,43 @@
-.mainContainer {
-    background-color: rgb(255, 252, 220);
-    display: flex;
+h1, h2 {
+    font-family: 'Black Ops One', cursive;
+}
+
+.body {
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 100px 400px 300px 150px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+      'menu menu'
+      'textpsycho foto'
+      'offer offer'
+      'footer footer'
+
+}
+
+.menu menu {
+   grid-area: menu;
+
+}
+
+.textpsycho {
+    grid-area: textpsycho;
+    
+
+}
+
+.foto {
+    grid-area: foto;
+}
+
+.offer {
+    grid-area: offer;
     justify-content: center;
-    align-items: center;
+}
+
+.footer {
+    grid-area: footer;
 }

@@ -1,0 +1,19 @@
+body {
+    height: 100vh;
+}
+
+.policko {
+ margin: 10px;
+}
+
+.form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;   
+}
+
+ 
