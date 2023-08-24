@@ -32,13 +32,24 @@ align-items: center;
 }
 .rightSide {
   grid-area: rightSide;
-  background-color: #FCCA46;
+  background-color: rgb(255, 252, 220);
+  display: flex;
 }
 
 .rightSide img{
   display:flex;
-  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 40px;
+  
 }
+
+.rightSideItem{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .menuPanel{
 grid-area: menu;
 background-color: var(--clr-bg5);
