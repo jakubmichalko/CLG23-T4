@@ -1,3 +1,14 @@
+h1, h2 {
+    font-family: 'Black Ops One', cursive;
+}
+
+body {
+    font-family: 'IBM Plex Serif', serif;
+    font-size: large;
+    margin: 0;
+}
+
+
 
 .money {
     color: red;
@@ -12,7 +23,10 @@
         "name menu"  
         "main main"
         "footer footer" ;
+        margin: 0;
+        height: 100vh;
     }
+
     
     .name {
         grid-area: name;
@@ -45,3 +59,8 @@
         grid-area: footer;
         background: #182a02;
     }
+
+    
+a:visited {
+    color: black;
+  }

@@ -1,0 +1,50 @@
+.mainContainer {
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    background-color: rgb(255, 252, 220);
+    display: grid;
+    grid-template-rows: 100px auto 10px;
+    grid-template-columns: 2fr 3fr;
+    grid-template-areas:     
+    "name menu"  
+    "content content"
+    "patka patka" ;
+    
+}
+​
+.name {
+    grid-area: name;
+    background-color: #9DCD65 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+​
+.menu {
+    grid-area: menu;
+    background-color: #9DCD65 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+​
+.mainPanel {
+    grid-area: content;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-block-end: 50px;
+    background-color: rgb(255, 252, 220) ;
+}
+​
+.mainTextPanelItem {
+    background-color: rgb(255, 252, 220);
+}
+​
+a:visited {
+    color: black;
+  }

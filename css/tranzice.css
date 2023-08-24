@@ -2,6 +2,10 @@ body {
     margin: 0;
 }
 
+h1, h2 {
+    font-family: 'Black Ops One', cursive;
+}
+
 .container {
         display: grid;
         font-size: 18px;
@@ -53,3 +57,7 @@ body {
         grid-area: footer;
         background: #182a02;
     }
+
+    a:visited {
+        color: black;
+      }
