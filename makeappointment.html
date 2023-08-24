@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="192x192" href="/images/webIcon-192x192.png">
+    <title>css link</title>
+      <link rel="stylesheet" type="text/css" href="./css/form.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
+  
+</head>
+
+<body >
+
+<form class="form">
+<div align="center"><h2> Formulář k objednání prvního sezení</h2></div>
+<div class="policko" align="center">    Jméno a příjmení <br>    <input type="text"> </div>
+<div class="policko" align="center">    Telefonní číslo <br>   <input type="text">  </div>
+<div class="policko" align="center">    E-mail <br>    <input type="text">  </div>
+
+<div class="policko">    Vyberte typ sezení <br>
+    <select>
+        <option>Individuální</option>
+        <option>Rodinné</option>
+        <option>Párové</option>
+        <option>Krizová intervence</option>
+    </select>
+</div>
+<div class="policko">    Vyberte datum sezení
+
+</div>
+
+<div class="policko">
+<select>
+<option selected disabled> Měsíc</option>
+<option>Leden</option>
+<option>Únor</option>
+<option>Březen</option>
+<option>Duben</option>
+<option>Květen</option>
+<option>Červen</option>
+<option>Červenec</option>
+<option>Srpen</option>
+<option>Září</option>
+<option>Říjen</option>
+<option>Listopad</option>
+<option>Prosinec</option>
+</select>
+</div>
+
+ <input type="number" id="quantity" name="quantity" min="0" max="31" placeholder="Den"><br>
+
+</div>
+
+<div class="policko" align="center">
+Věk <br>
+    <input type="radio" name="age"> do 18 let <input type="radio" name="age"> 18+
+</div>
+<br><br>
+<div>
+    <input type="submit" text="Odeslat"> 
+</div>
+</form>
+</body>
+
+</html>

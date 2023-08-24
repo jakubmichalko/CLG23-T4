@@ -1,0 +1,27 @@
+h1, h2 {
+    font-family: 'Black Ops One', cursive;
+}
+
+.body {
+    font-family: 'IBM Plex Serif', serif;
+}
+
+body {
+    height: 100vh;
+}
+
+.policko {
+ margin: 10px;
+}
+
+.form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;   
+}
+
+ 
