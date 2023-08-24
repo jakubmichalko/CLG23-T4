@@ -4,7 +4,7 @@
     top: 0;
     background-color: rgb(255, 252, 220);
     display: grid;
-    grid-template-rows: 100px auto 10px;
+    grid-template-rows: 100px auto 150px;
     grid-template-columns: 2fr 3fr;
     grid-template-areas:     
     "name menu"  
@@ -43,12 +43,13 @@
     width: 100%;
   }
 
+ 
+
 .leftSide {
     grid-area: leftSide;
     background-color: #FCCA46;
     display: flex;
     flex-direction: column;
-    
     align-items: center;
 }
 
@@ -103,6 +104,7 @@
 }
 
 .patkaItem1{
+    grid-area: patka;
     width: 100%;
      flex: 1;
      background: #182a02;
@@ -112,6 +114,7 @@
 }
 
 .patkaItem2{
+    grid-area: patka;
     width: 100%;
      flex: 1;
      background: #182a02;
@@ -121,6 +124,7 @@
 }
 
 .patkaItem3{
+    grid-area: patka;
     width: 100%;
      flex: 1;
      background: #182a02;
@@ -130,6 +134,7 @@
 }
 
 .patkaItem4{
+    grid-area: patka;
     width: 100%;
      flex: 1;
      background: #182a02;
@@ -139,6 +144,7 @@
 }
 
 .patkaItem5{
+    grid-area: patka;
     width: 100%;
      flex: 1;
      background: #182a02;
@@ -148,6 +154,7 @@
 }
 
 .patkaItem6{
+    grid-area: patka;
     width: 100%;
      flex: 1;
      background: #182a02;
@@ -155,3 +162,7 @@
      align-items: center;
      justify-content: center;
 }
+
+a:visited {
+    color: black;
+  }
