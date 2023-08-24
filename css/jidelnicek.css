@@ -39,10 +39,12 @@
     padding-right: 20px;
     padding-block-end: 50px;
     background-color: rgb(255, 252, 220) ;
+    
 }
 
 .mainTextPanelItem {
     background-color: rgb(255, 252, 220);
+    
 }
 
 a:visited {

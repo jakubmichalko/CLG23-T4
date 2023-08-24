@@ -7,6 +7,7 @@
         "name menu"  
         "left right"
         "footer footer" ;
+        margin: 0;
     }
     
     .name {
@@ -49,3 +50,7 @@
         grid-area: footer;
         background: #182a02;
     }
+
+    a:visited {
+        color: black;
+      }
