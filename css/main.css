@@ -2,45 +2,53 @@ h1, h2 {
     font-family: 'Black Ops One', cursive;
 }
 
-.body {
+body {
     font-family: 'IBM Plex Serif', serif;
+    font-size: large;
+
 }
 
 .container {
     display: grid;
-    grid-template-rows: 100px 400px 300px 150px;
+    grid-template-rows: 1fr 4fr 4fr 1fr;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
       'menu menu'
       'textpsycho foto'
       'offer offer'
-      'footer footer'
-
-}
-
-.menu menu {
-   grid-area: menu;
+      'patka patka';
+    margin: 0;
 
 }
 
 .textpsycho {
     grid-area: textpsycho;
+    padding: 20px;
+    background-color: rgb(255, 252, 220);
     
 
 }
 
 .foto {
     grid-area: foto;
+    padding-top: 20px;
+    background-color: rgb(255, 252, 220);
+    justify-content: center;
 }
 
 .offer {
     grid-area: offer;
     justify-content: center;
+    padding-bottom: 10px;
+    background-color: rgb(255, 252, 220);
 }
 
-.footer {
-    grid-area: footer;
+button {
+    background-color: orangered;
+    width: 100px;
+    height: 50px;
 }
+
     
 .mainContainer {
     width: 100%;
@@ -74,7 +82,6 @@ h1, h2 {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    
 }
 
 .rightSide {
